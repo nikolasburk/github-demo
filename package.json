@@ -1,0 +1,20 @@
+{
+  "name": "github-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-link": "^1.0.4",
+    "graphql": "^0.11.7",
+    "graphql-remote": "^0.1.16",
+    "graphql-tools": "^2.10.0",
+    "graphql-yoga": "^0.1.8"
+  }
+}
