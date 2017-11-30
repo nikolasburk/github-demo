@@ -4,7 +4,7 @@ const { introspectSchema } = require('graphql-tools')
 
 async function run() {
 
-  const makeGitHubLink = () => new GitHubLink('77d2843e53eccca913b86753485923fd69eb2029')
+  const makeGitHubLink = () => new GitHubLink('__TOKEN__')
   try {
     // const githubTypeDefs = await fetchTypeDefs(makeGitHubLink())  
     // console.log(githubTypeDefs)    
